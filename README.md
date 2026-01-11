@@ -1,7 +1,7 @@
 # TheGEMMCoreProject
 (Deprecated) SystemVerilog implementation of Nvidia's SIMT CUDA, Hybrid-Precision Tensor Core, and Google's Systolic Array TPU MXU GEMM Operations. 
 
-Note: Although these modules are performing the same "operations", they're by no means really emulating the actual microarchitecture executing CUDA Core/Tensor Core/MXU instructions. Think of this as an introductory educational repo for FP arithmetic digital design. You could altough use these modules as a quick alternative to say prototype an FPU in your FPGA design.
+Note: Although these modules are performing the same "operations", they're by no means really emulating the actual microarchitecture executing CUDA Core/Tensor Core/MXU instructions. Think of this as an introductory educational repo for FP arithmetic digital design. You could however use these modules as a quick alternative to say a prototype FPU in your FPGA design.
 
 If you're interested in going deeper, I'd highly recommend checking out my work on the Vortex GPGPU's [Tensor Core Unit (TCU) extension's DRL Floating Point RTL backend](https://github.com/vortexgpgpu/vortex/tree/bug_fixes/hw/rtl/tcu) for a significantly more [researched](https://arxiv.org/abs/2512.00053), optimized and realistic microarchitecture implementation.
 
